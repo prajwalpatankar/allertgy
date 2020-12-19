@@ -47,7 +47,7 @@ def model_call(request):
     # image_path = image_path['img']
     # if image_path.startswith("http://localhost:8000/"): 
     #     image_path = image_path.replace("http://localhost:8000/",'') 
-    image_path = "images/stk.jpeg"
+    image_path = "images/lasag.jpeg"
     model_path = "food_backend/results/mod.pth"
     device = 'cpu'
     print("IMAGE PATH : ")
