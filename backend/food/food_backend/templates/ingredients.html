@@ -1,0 +1,38 @@
+{% load static %}
+<html>
+
+    <head>
+    <link rel="stylesheet" type="text/css" href="{% static 'food_backend/style.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div class="ing-hero">
+            <div class="container container-ing">
+                <h1 class="ing-head">Food Item Recognised: <span class="green">{{ item_name }} </span></h1>
+                <h3 class="ing-cat">Categories : <span class="yellow"> {% for hl in health_label %} &nbsp;{{ hl }}{%  endfor %}</span></h3>
+                <h2 class="ing-ing"> Probabale Ingredients :</h2>
+                <ul class="ing-ul">
+                    {% for ingdt in ingredients_all %}
+                    <li>{{ ingdt }}</li>
+                    {% endfor %}
+                </ul><br>
+                <h2 class="ing-ing"> Probabale Calories : <span class="red">{{ calories }}</span></h2><br>
+                <button class="btn btn-primary ing-btn" onclick="location.href = '/'">Upload Another Photo</a></button>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+<!-- <h1>Food Item Recognised: {{ item_name }} </h1><br>
+<h3>Categories : 
+{% for hl in health_label %} 
+{{ hl }} 
+{%  endfor %}
+</h3>
+<h2> Probabale Ingredients :</h2>
+{% for ingdt in ingredients_all %}
+<h1>{{ ingdt }}</h1>
+{% endfor %} -->

@@ -1,0 +1,89 @@
+
+
+.body-pp {
+    /* background-color: #eeeeee; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: cursive;
+}
+
+.container-pp {
+    padding-top: 100px;
+    /* padding-bottom: 435px; */
+}
+
+.body-pp h1 {
+    color: #ddd;
+    text-align: center;
+}
+
+.body-pp h4 {
+    color: #aaa;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.form-pp {
+    width:60%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+
+
+.ing-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./bg-ing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: cursive;
+    color: #eeeeee;
+
+}
+
+.ing-head {
+    padding-top: 200px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 60px;
+}
+
+.ing-cat {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.ing-ing {
+    text-align: center;
+}
+
+.ing-ul {
+    text-align: center;
+    list-style: none;
+}
+
+.ing-ul li {
+    font-size: 25px;
+    color: #f8bb86; 
+    /* color: #f8bb86  red*/
+}
+
+.ing-btn {
+    width: 20%;
+    margin-left: 42%;
+    margin-right: auto;
+}
+
+.green {
+    color: #a5dc86;
+}
+
+.yellow {
+    color: #f8bb86; 
+}
+
+.red {
+    color: #f27474 
+}

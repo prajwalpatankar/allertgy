@@ -1,0 +1,33 @@
+{% load static %}
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="{% static 'food_backend/style.css' %}">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="body-pp">
+     
+    <div class="container container-pp">
+      <h1 style="font-size: 65px;">ALLERTGY</h1>
+        <h4>Find what's in your Dish with One Click !</h4>
+
+      
+
+        <form class="form-pp" action='upload' method='POST' enctype='multipart/form-data'>
+          {% csrf_token %}
+          <div class="form-group">
+            <div class="card">
+            <input class="form-control-file card-body" type='file' name='image'>
+            </div>
+          </div>
+          <input type='submit' value='Upload File' class="btn btn-primary btn-pp">
+        </form>
+      
+    </div>
+  </div>
+</body>
+
+</html>
