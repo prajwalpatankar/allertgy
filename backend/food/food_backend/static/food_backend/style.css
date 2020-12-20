@@ -40,11 +40,11 @@
     height: 100vh;
     font-family: cursive;
     color: #eeeeee;
-
+    background-color: #312d27;
 }
 
 .ing-head {
-    padding-top: 200px;
+    padding-top: 60px;
     text-align: center;
     padding-bottom: 10px;
     font-size: 60px;
@@ -85,5 +85,5 @@
 }
 
 .red {
-    color: #f27474 
+    color: #f27474;
 }

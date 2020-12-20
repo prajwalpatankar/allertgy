@@ -12,13 +12,13 @@
             <div class="container container-ing">
                 <h1 class="ing-head">Food Item Recognised: <span class="green">{{ item_name }} </span></h1>
                 <h3 class="ing-cat">Categories : <span class="yellow"> {% for hl in health_label %} &nbsp;{{ hl }}{%  endfor %}</span></h3>
-                <h2 class="ing-ing"> Probabale Ingredients :</h2>
+                <h2 class="ing-ing"> Probable Ingredients :</h2>
                 <ul class="ing-ul">
                     {% for ingdt in ingredients_all %}
                     <li>{{ ingdt }}</li>
                     {% endfor %}
-                </ul><br>
-                <h2 class="ing-ing"> Probabale Calories : <span class="red">{{ calories }}</span></h2><br>
+                </ul><br><br>
+                <h2 class="ing-ing"><span class="green"> Probable Calories :</span> <span class="red">{{ calories }}</span></h2><br>
                 <button class="btn btn-primary ing-btn" onclick="location.href = '/'">Upload Another Photo</a></button>
             </div>
         </div>

@@ -19,6 +19,8 @@ from torchvision.utils import make_grid
 from PIL import Image
 import PIL
 import re 
+import glob
+import os
 
 # Create your views here.
 def IndexViewSet(request):
@@ -47,7 +49,12 @@ def model_call(request):
     # image_path = image_path['img']
     # if image_path.startswith("http://localhost:8000/"): 
     #     image_path = image_path.replace("http://localhost:8000/",'') 
-    image_path = "images/lasag.jpeg"
+
+    list_of_files = glob.glob('images/*') # * means all if need specific format then *.csv
+    latest_file = max(list_of_files, key=os.path.getctime)
+    print(latest_file)
+    image_path = latest_file
+    # image_path = "images/lasag.jpg"
     model_path = "food_backend/results/mod.pth"
     device = 'cpu'
     print("IMAGE PATH : ")
@@ -185,6 +192,7 @@ def model_call(request):
     APP_KEY = '9c558c2d5c3dffb5476c3be27f2aa197	'
     # food_item = 'cheese_plate'  # replace this to item from model
     food_item = classes[index]
+    food_name1 = food_item.replace("_"," ")
     food_item = food_item.replace("_","+")
     base_url_ing = "https://api.edamam.com/search?q=" + food_item + "&app_id=" + APP_ID + "&app_key=" + APP_KEY
     item_details = requests.get(base_url_ing)
@@ -194,4 +202,5 @@ def model_call(request):
     ingredients_all = recipes['ingredientLines']    #ingredients with quantity
     calories = round(recipes['calories'],2)
     context = {"ingredients_all" : ingredients_all, 'item_name': food_item, 'health_label': health_labels, 'calories': calories}
+    # context = {}
     return render(request, 'ingredients.html', context)
