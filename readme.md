@@ -1,7 +1,7 @@
 # Zubi Let's Hack : 
 ***Hackathon Link*** : https://letshack.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=portfolio <br>
 ***Project Link***   : https://devpost.com/software/allertgy
-<br><br><br>
+<br><br>
 ### Inspiration
 Around 90% of the allergies people have are food related. 4.7% of children under the age of 5 having a reported food allergies, and 3.7% of children between the ages of 5 to 17. Milk allergies are most common in children, 2.5% of them under the age of 3 have an allergic reaction to milk.
 <br><br>
