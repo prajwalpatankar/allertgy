@@ -20,16 +20,17 @@ Allergies can be pinpointed with the help of a medical professionals easily, but
 <br>
 ***Current model Accuracy : 85% VA***
 <br><br>
-### HOW TO EXECUTE
+### THINGS YOU MAY NEED
 
 pip3 install django
 pip3 install requests
-pip3 install torch pip3 install torchvision
+pip3 install torch 
+pip3 install torchvision
 pip3 install Pillow
 <br><br>
 ### TEAM
 ***ML :***
-1. Prathamesh Sonawane
+1. Prathamesh Sonawane <a href="www.github.com/pratt3000">Github</a> <a href="www.linedin.com/in/pratt3000">Linkedin</a> <a href="pratt3000@gmail.com">Mail</a>
 2. Sparsh Drolia
 
 ***Website :***
