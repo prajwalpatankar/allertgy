@@ -23,3 +23,11 @@ pip3 install django
 pip3 install requests
 pip3 install torch pip3 install torchvision
 pip3 install Pillow
+
+### Team
+***ML :***
+1. Prathamesh Sonawane
+2. Sparsh Drolia
+***Website :***
+1. Prajawl Patankar
+2. Mrunal Joshi
