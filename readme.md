@@ -1,4 +1,4 @@
-#Zubi Let's Hack : 
+# Zubi Let's Hack : 
 https://letshack.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=portfolio
 
 ### Description
@@ -11,7 +11,7 @@ Allergies can be pinpointed with the help of a medical professionals easily, but
 
 **We created a beta version for this hackathon and plan on adding a few more key features and also making it more ergonomic for the average user.**
 
-### Current model Accuracy : 85% VA
+***Current model Accuracy : 85% VA***
 
 ### How to execute
 
