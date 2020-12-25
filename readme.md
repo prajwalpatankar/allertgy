@@ -1,12 +1,12 @@
-# Zubi Let's Hack : 
+# ALLERTGY (Zubi Let's Hack) : 
 ***Hackathon Link*** : https://letshack.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=portfolio <br>
 ***Project Link***   : https://devpost.com/software/allertgy
 <br><br>
-### Inspiration
+### INSPIRATION
 Around 90% of the allergies people have are food related. 4.7% of children under the age of 5 having a reported food allergies, and 3.7% of children between the ages of 5 to 17. Milk allergies are most common in children, 2.5% of them under the age of 3 have an allergic reaction to milk.
 <br><br>
 
-### Description
+### DESCRIPTION
 
 We feel proud to announce that our team Quikee has secured the third prize of Zubi Let’s Hack 1.0
 
@@ -17,14 +17,14 @@ Allergies can be pinpointed with the help of a medical professionals easily, but
 **We created a beta version for this hackathon and plan on adding a few more key features and also making it more ergonomic for the average user.**
 ***Current model Accuracy : 85% VA***
 <br><br>
-### How to execute
+### HOW TO EXECUTE
 
 pip3 install django
 pip3 install requests
 pip3 install torch pip3 install torchvision
 pip3 install Pillow
 <br><br>
-### Team
+### TEAM
 ***ML :***
 1. Prathamesh Sonawane
 2. Sparsh Drolia
