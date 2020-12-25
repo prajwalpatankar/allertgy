@@ -30,7 +30,7 @@ pip3 install Pillow
 <br><br>
 ### TEAM
 ***ML :***
-1. Prathamesh Sonawane <a href="www.github.com/pratt3000">Github</a> <a href="www.linedin.com/in/pratt3000">Linkedin</a> Email:pratt3000@gmail.com?subject=[GitHub]%20Source%20Han%20Sans
+1. Prathamesh Sonawane <a href="www.github.com/pratt3000">Github</a> <a href="www.linedin.com/in/pratt3000">Linkedin</a> Email:pratt3000@gmail.com
 2. Sparsh Drolia
 
 ***Website :***
