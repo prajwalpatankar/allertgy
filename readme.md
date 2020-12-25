@@ -14,7 +14,10 @@ Allergies can be pinpointed with the help of a medical professionals easily, but
 
 ***Our solution***: AllerTgy aims to eliminate this hassle by telling you all the ingredients just by uploading a picture. Along with the food ingredients, we also provide the user with nutritional information about the food item.
 
+<br><br>
+### FUTURE
 **We created a beta version for this hackathon and plan on adding a few more key features and also making it more ergonomic for the average user.**
+<br>
 ***Current model Accuracy : 85% VA***
 <br><br>
 ### HOW TO EXECUTE
