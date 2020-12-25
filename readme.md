@@ -32,6 +32,7 @@ pip3 install Pillow
 ***ML :***
 1. Prathamesh Sonawane    <a href="https://www.github.com/pratt3000">Github</a>     <a href="https://www.linedin.com/in/pratt3000">Linkedin</a>
 2. Sparsh Drolia
+
 ***Website :***
 1. Prajawl Patankar
 2. Mrunal Joshi
