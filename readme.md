@@ -1,5 +1,6 @@
 # Zubi Let's Hack : 
-https://letshack.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=portfolio
+***Hackathon Link*** : https://letshack.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=portfolio
+***Project Link***   : https://devpost.com/software/allertgy
 
 ### Description
 
