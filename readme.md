@@ -1,6 +1,10 @@
 # Zubi Let's Hack : 
 ***Hackathon Link*** : https://letshack.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=portfolio <br>
 ***Project Link***   : https://devpost.com/software/allertgy
+<br><br><br>
+### Inspiration
+Around 90% of the allergies people have are food related. 4.7% of children under the age of 5 having a reported food allergies, and 3.7% of children between the ages of 5 to 17. Milk allergies are most common in children, 2.5% of them under the age of 3 have an allergic reaction to milk.
+<br><br><br>
 
 ### Description
 
@@ -11,9 +15,8 @@ Allergies can be pinpointed with the help of a medical professionals easily, but
 ***Our solution***: AllerTgy aims to eliminate this hassle by telling you all the ingredients just by uploading a picture. Along with the food ingredients, we also provide the user with nutritional information about the food item.
 
 **We created a beta version for this hackathon and plan on adding a few more key features and also making it more ergonomic for the average user.**
-
 ***Current model Accuracy : 85% VA***
-
+<br><br><br>
 ### How to execute
 
 pip3 install django
