@@ -30,7 +30,7 @@ pip3 install Pillow
 <br><br>
 ### TEAM
 ***ML :***
-1. Prathamesh Sonawane    <a href="https://www.github.com/pratt3000">Github</a>     <a href="https://www.linedin.com/in/pratt3000">Linkedin</a>
+1. Prathamesh Sonawane    <a href="https://www.github.com/pratt3000">Github</a>     <a href="https://www.linkedin.com/in/pratt3000">Linkedin</a>
 2. Sparsh Drolia
 
 ***Website :***
