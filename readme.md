@@ -22,11 +22,11 @@ Allergies can be pinpointed with the help of a medical professionals easily, but
 <br><br>
 ### THINGS YOU MAY NEED
 
-pip3 install django
-pip3 install requests
-pip3 install torch 
-pip3 install torchvision
-pip3 install Pillow
+pip3 install django  
+pip3 install requests  
+pip3 install torch  
+pip3 install torchvision  
+pip3 install Pillow  
 <br><br>
 ### TEAM
 ***ML :***
@@ -34,5 +34,5 @@ pip3 install Pillow
 2. Sparsh Drolia
 
 ***Website :***
-1. Prajawl Patankar
+1. Prajawl Patankar     <a href="https://www.github.com/prajwalpatankar">Github</a>     <a href="https://www.linkedin.com/mwlite/in/prajwal-patankar-5652a61a2">Linkedin</a>
 2. Mrunal Joshi
