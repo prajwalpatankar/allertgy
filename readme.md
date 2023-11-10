@@ -21,12 +21,14 @@ Allergies can be pinpointed with the help of a medical professionals easily, but
 ***Current model Accuracy : 85% VA***
 <br><br>
 ### THINGS YOU MAY NEED
-
+*To set up the backend, you might need to install the following dependecies *
+```
 pip3 install django  
 pip3 install requests  
 pip3 install torch  
 pip3 install torchvision  
-pip3 install Pillow  
+pip3 install Pillow
+```
 <br><br>
 ### TEAM
 ***ML :***
@@ -34,5 +36,5 @@ pip3 install Pillow
 2. Sparsh Drolia
 
 ***Website :***
-1. Prajawl Patankar     <a href="https://www.github.com/prajwalpatankar">Github</a>     <a href="https://www.linkedin.com/mwlite/in/prajwal-patankar-5652a61a2">Linkedin</a>
+1. Prajawl Patankar     <a href="https://www.github.com/prajwalpatankar">Github</a>     <a href="https://www.linkedin.com/prajwalpatankar/">Linkedin</a>
 2. Mrunal Joshi
