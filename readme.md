@@ -21,7 +21,7 @@ Allergies can be pinpointed with the help of a medical professionals easily, but
 ***Current model Accuracy : 85% VA***
 <br><br>
 ### THINGS YOU MAY NEED
-*To set up the backend, you might need to install the following dependecies *
+**To set up the backend, you might need to install the following dependecies.**
 ```
 pip3 install django  
 pip3 install requests  
